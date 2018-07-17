@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/booked"
+    android:orientation="vertical">
+
+
+
+
+    <TextView
+        android:id="@+id/user_editText"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="Hotel Name"
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:textColor="@android:color/white"
+        android:id="@+id/hotelName"
+        android:layout_width="match_parent" />
+
+    <TextView
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="Location"
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/white" />
+
+
+    <Button
+        android:id="@+id/hotelAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onAddButtonClick"
+        android:text="Add" />
+
+    <Button
+        android:id="@+id/roomAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onRoomAddButtonClick"
+        android:text="Add Rooms" />
+
+    <Button
+        android:id="@+id/viewHotel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onViewHotelButtonClick"
+        android:text="View Hotels" />
+
+    <Button
+        android:id="@+id/viewCustomers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onViewCustomerButtonClick"
+        android:text="View Customers" />
+</LinearLayout>
